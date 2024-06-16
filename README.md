@@ -1,0 +1,1 @@
+This is the repository which contains the code I wrote while building a basic website called Farm Stand. The main purpose that I had in mind while building this website was to integrate Mongoose with RESTful routing and apply the concepts that I have learned.
