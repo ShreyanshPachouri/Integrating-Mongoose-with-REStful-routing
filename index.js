@@ -9,7 +9,7 @@ const Product = require("./models/product")
 app.use(express.urlencoded({extended: true}))
 app.use(methodOverride('_method'))
 
-const categories = ["Fruit", "Vegetable", "Dairy", "Pussy"]
+const categories = ["Fruit", "Vegetable", "Dairy"]
 
 mongoose.connect('mongodb://localhost:27017/NewFarmStand', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
